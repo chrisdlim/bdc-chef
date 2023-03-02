@@ -7,7 +7,6 @@ from discord_bot import DiscordBot
 
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
-GUILD = os.getenv('SERVER_NAME')
 EASTER_EGG_NAMES = os.getenv('EASTER_EGG_NAMES').split(',')
 
 intents = discord.Intents.default()

@@ -25,6 +25,6 @@ class DiscordBot(commands.Bot):
         msg = f"In need of a {role}!. LET <@{user_id}> COOK!"
 
         if self.is_easter(user):
-            msg = msg + f" Approximately {random()*100}% chance of winning..."
+            msg = msg + f" Approximately {random.randint(0, 100)}% chance of winning..."
         
         return msg
