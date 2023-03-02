@@ -10,7 +10,6 @@ TOKEN = os.getenv('TOKEN')
 GUILD = os.getenv('SERVER_NAME')
 EASTER_EGG_NAMES = os.getenv('EASTER_EGG_NAMES').split(',')
 
-print(EASTER_EGG_NAMES)
 intents = discord.Intents.default()
 intents.members = True
 
