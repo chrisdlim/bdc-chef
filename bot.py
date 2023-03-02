@@ -5,6 +5,8 @@ from discord.ext import commands
 from dotenv import load_dotenv
 from discord_bot import DiscordBot
 
+print('Initializing bdc-chef...')
+
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
 EASTER_EGG_NAMES = os.getenv('EASTER_EGG_NAMES').split(',')
